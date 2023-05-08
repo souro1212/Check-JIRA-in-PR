@@ -43,6 +43,11 @@ jobs:
             fi
 
 ```
+## Inputs
+This action does not have any inputs.
+
+## Outputs
+This action does not have any outputs.
 
 ## Secrets
 
