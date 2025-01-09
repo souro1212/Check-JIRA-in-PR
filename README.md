@@ -1,5 +1,5 @@
 # Check JIRA ticket ID
-This GitHub action checks if a valid JIRA ticket ID exists in the commit message of a pull request. It uses [Atlassian JIRA APIs](https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro) to authenticate and search for the JIRA ticket ID in the pull request title.
+This GitHub action checks if a valid JIRA ticket ID exists in the commit message of a pull request. It uses [Atlassian JIRA APIs](https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro) and [atlassian/gajira-login](https://github.com/atlassian/gajira-login) to authenticate and search for the JIRA ticket ID in the pull request title.
 
 ## Usage
 To use this action, add the following code to your GitHub repository under `.github/workflows/check-jira-ticket-id.yml`:
